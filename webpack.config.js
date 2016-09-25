@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./app/index.ts",
+  entry: "./app/index.tsx",
   output: {
     filename: "./bundle.js",
   },
@@ -9,7 +9,7 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.tsx?$/, loader: "babel-loader?presets[]=es2015!ts-loader" }
+      { test: /\.tsx?$/, loader: "babel-loader?presets[]=es2015&presets[]=react!ts-loader" }
     ],
     preLoaders: [
       { test: /\.js$/, loader: "source-map-loader" }

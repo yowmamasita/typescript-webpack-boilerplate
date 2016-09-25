@@ -2,9 +2,9 @@
 
 npm init
 
-npm install --save @angular/common @angular/compiler @angular/core @angular/forms @angular/http @angular/platform-browser @angular/platform-browser-dynamic @angular/router @angular/upgrade rxjs zone.js reflect-metadata
+npm install --save react react-dom
 
-npm install --save-dev webpack webpack-dev-server typescript ts-loader source-map-loader @types/jasmine @types/core-js @types/node babel-loader babel-core babel-preset-es2015
+npm install --save-dev webpack webpack-dev-server typescript ts-loader source-map-loader @types/jasmine @types/core-js @types/node babel-loader babel-core babel-preset-es2015 @types/react @types/react-dom babel-preset-react
 
 "scripts": {
   "start": "./node_modules/.bin/webpack-dev-server --content-base app --inline --hot"
